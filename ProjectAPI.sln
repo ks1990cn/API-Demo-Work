@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32510.428
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectAPI", "ProjectAPI\ProjectAPI.csproj", "{A8E4039F-A021-4748-83B5-1477A7BE8CF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathematicalCalculations", "MathematicalCalculations\MathematicalCalculations.csproj", "{F746C086-EC22-43CB-9AE3-3D73058F737B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8E4039F-A021-4748-83B5-1477A7BE8CF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8E4039F-A021-4748-83B5-1477A7BE8CF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8E4039F-A021-4748-83B5-1477A7BE8CF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8E4039F-A021-4748-83B5-1477A7BE8CF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F746C086-EC22-43CB-9AE3-3D73058F737B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F746C086-EC22-43CB-9AE3-3D73058F737B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F746C086-EC22-43CB-9AE3-3D73058F737B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F746C086-EC22-43CB-9AE3-3D73058F737B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA796D64-67D7-401D-A4DD-43F561459137}
+	EndGlobalSection
+EndGlobal
