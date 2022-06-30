@@ -9,6 +9,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ProjectAPI.Filters;
 
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -24,7 +25,7 @@ namespace ProjectAPI.Controllers
             new Quotes(){AuthorId = 1, AuthorName = "Seth" , Phone = 99},
             new Quotes(){AuthorId = 2, AuthorName = "Hi" , Phone = 91}
         };
-        private QuotesDbContext _quotesDbContext;
+        public QuotesDbContext _quotesDbContext;
         private IMemoryCache memoryCache;
         private IMockRepository mockRepository;
         string a, b, c;
@@ -40,6 +41,7 @@ namespace ProjectAPI.Controllers
         }
         // GET: api/<QuoteController>
         [HttpGet]
+        [MyFilter("seth")]
         public async Task<ActionResult<List<Quotes>>> Get()
         {
             List<Quotes> output;
@@ -47,12 +49,15 @@ namespace ProjectAPI.Controllers
 
             if (output is null)
             {
+                
                 output = await _quotesDbContext.Quotes.ToListAsync();
 
                 await Task.Delay(3000);
 
                 memoryCache.Set(key: "quotes", output, TimeSpan.FromMinutes(1));
             }
+            
+            
             return Ok(output);
         }
 
@@ -70,8 +75,11 @@ namespace ProjectAPI.Controllers
         [HttpPost]
         public async Task<ActionResult> Post([FromBody] Quotes quotes)
         {
-            _quotesDbContext.Quotes.Add(quotes);
-            await _quotesDbContext.SaveChangesAsync();
+            //_quotesDbContext.Quotes.Add(quotes);
+            var procedure = $"EXECUTE names  @pm = ' aslkfjd vndv', @tl = 90";
+            
+            //_quotesDbContext.Quotes.FromSqlRaw(procedure);
+            await _quotesDbContext.Database.ExecuteSqlRawAsync(procedure);
             return Ok();
         }
 

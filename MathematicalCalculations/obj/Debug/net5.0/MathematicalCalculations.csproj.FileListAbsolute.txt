@@ -10,3 +10,15 @@ C:\Users\tanmays\source\repos\ProjectAPI\MathematicalCalculations\obj\Debug\net5
 C:\Users\tanmays\source\repos\ProjectAPI\MathematicalCalculations\obj\Debug\net5.0\MathematicalCalculations.dll
 C:\Users\tanmays\source\repos\ProjectAPI\MathematicalCalculations\obj\Debug\net5.0\ref\MathematicalCalculations.dll
 C:\Users\tanmays\source\repos\ProjectAPI\MathematicalCalculations\obj\Debug\net5.0\MathematicalCalculations.pdb
+C:\Users\tanmays\source\repos\ProjectAPI\API-Demo-Work\MathematicalCalculations\bin\Debug\net5.0\MathematicalCalculations.deps.json
+C:\Users\tanmays\source\repos\ProjectAPI\API-Demo-Work\MathematicalCalculations\bin\Debug\net5.0\MathematicalCalculations.dll
+C:\Users\tanmays\source\repos\ProjectAPI\API-Demo-Work\MathematicalCalculations\bin\Debug\net5.0\ref\MathematicalCalculations.dll
+C:\Users\tanmays\source\repos\ProjectAPI\API-Demo-Work\MathematicalCalculations\bin\Debug\net5.0\MathematicalCalculations.pdb
+C:\Users\tanmays\source\repos\ProjectAPI\API-Demo-Work\MathematicalCalculations\obj\Debug\net5.0\MathematicalCalculations.csproj.AssemblyReference.cache
+C:\Users\tanmays\source\repos\ProjectAPI\API-Demo-Work\MathematicalCalculations\obj\Debug\net5.0\MathematicalCalculations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tanmays\source\repos\ProjectAPI\API-Demo-Work\MathematicalCalculations\obj\Debug\net5.0\MathematicalCalculations.AssemblyInfoInputs.cache
+C:\Users\tanmays\source\repos\ProjectAPI\API-Demo-Work\MathematicalCalculations\obj\Debug\net5.0\MathematicalCalculations.AssemblyInfo.cs
+C:\Users\tanmays\source\repos\ProjectAPI\API-Demo-Work\MathematicalCalculations\obj\Debug\net5.0\MathematicalCalculations.csproj.CoreCompileInputs.cache
+C:\Users\tanmays\source\repos\ProjectAPI\API-Demo-Work\MathematicalCalculations\obj\Debug\net5.0\MathematicalCalculations.dll
+C:\Users\tanmays\source\repos\ProjectAPI\API-Demo-Work\MathematicalCalculations\obj\Debug\net5.0\ref\MathematicalCalculations.dll
+C:\Users\tanmays\source\repos\ProjectAPI\API-Demo-Work\MathematicalCalculations\obj\Debug\net5.0\MathematicalCalculations.pdb
